@@ -1,0 +1,315 @@
+@font-face{
+	font-family: my-font;
+	src: url(../fonts/PaytoneOne-Regular.ttf);
+}
+
+@font-face{
+	font-family: my-font2;
+	src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face{
+	font-family: my-font3;
+	src: url(../fonts/AARDV.TTF);
+}
+
+.header{
+	height: 100px;
+	background-color: #2D394B;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+}
+
+.logo h1, .footer_right h1{
+	display: inline-block;
+	color: white;
+	font-family: my-font;
+	text-decoration: underline;
+	margin-left: 40px;
+}
+
+.hright{
+	float: right;
+	width: 75%;
+}
+
+.hright ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.hright a{
+	font-family: my-font2;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px 20px 15px 22px;
+}
+
+.hright a:hover{
+	color: red;
+}
+
+.btn1{
+	width: 15%;
+	height: 30px;
+    color: orangered;
+    font-family: 'my-font2';
+    font-size: 20px;
+    margin-top: 16px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.container1{
+	height: 510px;
+}
+
+.container1_left{
+	float: left;
+	width: 35%;
+	height: 510px;
+	background-color: #0A2E6A;
+}
+
+.img1{
+	margin-left: 35%;
+    margin-top: 30px;
+}
+
+.container1_left h1{
+	text-align: center;
+    font-family: my-font3;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.container1_left p{
+	 color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+.container1_right{
+	float: right;
+	width: 65%;
+	height: 510px;
+	background-color: #806EDB;
+}
+
+.container1_right h1{
+	text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.label1{
+	text-align: center;
+    margin-left: 45%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'my-font2';
+    font-size: 15px;
+}
+
+.label2{
+	width: 40%;
+    height: 30px;
+    margin-left: 30%;
+    font-size: 15px;
+    text-align: center;
+    background: wheat;
+    border: 1px solid antiquewhite;
+    border-radius: 20px;
+}
+
+.btn2{
+	width: 40%;
+    height: 35px;
+    margin-left: 30%;
+    margin-top: 15px;
+    background: #0968DF;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    border-radius: 20px;
+}
+
+.btn2:hover{
+	background-color: red;
+}
+
+
+.container2{
+	height: 300px;	
+}
+
+.item1, .item2, .item3{
+	height: 300px;
+	width: 33.33%;
+	float: left;
+}
+
+.red{
+	background-color:#3858E9;
+}
+
+.green{
+  	background-color: #6CC832;
+}
+
+.blue{
+	background-color: #FCD000;
+}
+
+.container3{
+	height: 370px;
+}
+
+.one{
+	float: left;
+	width: 25%;
+	height: 370px;
+	background-color: #3998B6;
+}
+
+.two{
+	float: left;
+	width: 25%;
+	height: 370px;
+	background-color: #F03D2F;
+
+}
+
+.three{
+	float: left;
+	width: 25%;
+	height: 370px;
+	background-color: #44B78B;
+}
+
+.four{
+	float: left;
+	width: 25%;
+	height: 370px;
+	background-color: #F0E7E9;
+}
+
+.img2{
+	margin-left: 31%;
+    margin-top: 25px;
+}
+
+.container4{
+	height: 250px;
+}
+
+
+
+.first{
+    height: 250px;
+    float: left;
+    width: 20%;
+    background-color: #900C3F;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'my-font2';
+}
+
+.second{
+	height: 250px;
+    float: left;
+    width: 20%;
+    background-color: #7D3C98;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'my-font2';
+}
+
+.third{
+	height: 250px;
+    float: left;
+    width: 20%;
+    background-color: #F39C12;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'my-font2';
+}
+
+.fourth{
+	height: 250px;
+    float: left;
+    width: 20%;
+    background-color: #FF5733 ;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'my-font2';
+}
+
+.fifth{
+	height: 250px;
+    float: left;
+    width: 20%;
+    background-color: #5DADE2;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'my-font2';
+}
+
+.footer{
+	height: 150px;
+	background-color: #566573;
+}
+
+.footer_left{
+	width: 33.33%;
+	float: left;
+}
+
+.footer_left p{
+	margin-left: 20%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.footer_mid{
+	width: 33.33%;
+	float: left;
+}
+
+.footer_mid h3{
+	font-size: 15px;
+    margin-top: 40px;
+}
+
+.footer_right{
+	width: 33.33%;
+	float: right;
+}
+
+.fa-pagelines {
+    --fa: "\f18c";
+    color: red;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.fa-twitter, .fa-facebook, .fa-whatsapp, .fa-skype, .fa-youtube, .fa-instagram{
+	padding: 10px;
+    font-size: 22px;
+    margin-left: 2%;
+    color: azure;
+}
+
+.fa-twitter:hover{
+	background-color: blue;
+}
